@@ -1,0 +1,44 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.717936",
+   "Default View_TopLeft":"-450,-421",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0 TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 1 -x -30 -y -690 -defaultsOSRD -top
+preplace port FIXED_IO -pg 1 -lvl 2 -x 90 -y -690 -defaultsOSRD -top
+preplace inst axiregs_0 -pg 1 -lvl 5 -x 1400 -y 100 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -x -220 -y -120 -defaultsOSRD
+preplace inst axi_dma_0 -pg 1 -lvl 4 -x 1000 -y -430 -defaultsOSRD
+preplace inst axi_dma_1 -pg 1 -lvl 4 -x 1000 -y 60 -defaultsOSRD
+preplace inst rst_ps7_0_125M -pg 1 -lvl 2 -x 220 -y -100 -defaultsOSRD
+preplace inst processing_FSM_0 -pg 1 -lvl 5 -x 1400 -y -240 -defaultsOSRD
+preplace inst smartconnect_0 -pg 1 -lvl 3 -x 610 -y -420 -defaultsOSRD
+preplace inst smartconnect_1 -pg 1 -lvl 3 -x 610 -y 100 -defaultsOSRD
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 1 1 40 -120n
+preplace netloc processing_FSM_0_done 1 4 2 1240 -330 1560
+preplace netloc processing_FSM_0_n_matches 1 4 2 1250 0 1550
+preplace netloc rst_ps7_0_125M_peripheral_aresetn 1 2 3 460 -240 820 -30 1220
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 5 -440 -10 30 -210 450 -250 810 -50 1210
+preplace netloc processing_system7_0_DDR 1 1 1 0 -680n
+preplace netloc processing_system7_0_FIXED_IO 1 1 1 10 -680n
+preplace netloc axi_dma_0_M_AXIS_MM2S 1 4 1 1180 -450n
+preplace netloc axi_dma_1_M_AXIS_MM2S 1 4 1 1190 -250n
+preplace netloc processing_FSM_0_m_axis 1 3 3 820 -550 NJ -550 1550
+preplace netloc axi_dma_0_M_AXI_MM2S 1 2 3 440 -570 NJ -570 1180
+preplace netloc axi_dma_0_M_AXI_S2MM 1 2 3 470 -560 NJ -560 1230
+preplace netloc axi_dma_1_M_AXI_MM2S 1 2 3 470 -40 NJ -40 1180
+preplace netloc smartconnect_0_M00_AXI 1 0 4 -440 -230 NJ -230 NJ -230 750
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 2 20J -200 400
+preplace netloc smartconnect_1_M00_AXI 1 3 1 760 -480n
+preplace netloc smartconnect_1_M01_AXI 1 3 1 770 30n
+preplace netloc smartconnect_1_M02_AXI 1 3 2 750 150 1230J
+levelinfo -pg 1 -640 -220 220 610 1000 1400 1590
+pagesize -pg 1 -db -bbox -sgen -640 -800 1770 1080
+"
+}
+{
+   "da_axi4_cnt":"7",
+   "da_clkrst_cnt":"15",
+   "da_ps7_cnt":"1"
+}
