@@ -1,0 +1,5 @@
+Time resolution is 1 ps
+n_matches = 2115
+paired records sent = 135262
+unconsumed records in 31mers_5.txt = 103
+$finish called at time : 21641975 ns : File "/home/Yiann/Projects/DASD/Tarea3/Tarea3.srcs/sim_1/new/basefsm_tb.sv" Line 186

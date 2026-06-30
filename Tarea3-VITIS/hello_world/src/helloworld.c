@@ -63,3 +63,8 @@ int init_sd_and_read_files() {
     
 }
 
+int main() {
+
+    return 0;
+
+}

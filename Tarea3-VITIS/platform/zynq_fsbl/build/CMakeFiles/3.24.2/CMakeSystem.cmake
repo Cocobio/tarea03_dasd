@@ -3,7 +3,7 @@ set(CMAKE_HOST_SYSTEM_NAME "Linux")
 set(CMAKE_HOST_SYSTEM_VERSION "7.0.12-1-default")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
 
-include("/home/Yiann/Projects/DASD/Tarea3/Tarea3-VITIS/platform/zynq_fsbl/zynq_fsbl_bsp/cortexa9_toolchain.cmake")
+include("/home/Yiann/Projects/DASD/tarea03_dasd/Tarea3-VITIS/platform/zynq_fsbl/zynq_fsbl_bsp/cortexa9_toolchain.cmake")
 
 set(CMAKE_SYSTEM "Generic")
 set(CMAKE_SYSTEM_NAME "Generic")

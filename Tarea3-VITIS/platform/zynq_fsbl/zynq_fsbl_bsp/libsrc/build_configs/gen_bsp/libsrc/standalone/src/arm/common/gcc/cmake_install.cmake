@@ -1,4 +1,4 @@
-# Install script for directory: /home/Yiann/Projects/DASD/Tarea3/Tarea3-VITIS/platform/zynq_fsbl/zynq_fsbl_bsp/libsrc/standalone/src/arm/common/gcc
+# Install script for directory: /home/Yiann/Projects/DASD/tarea03_dasd/Tarea3-VITIS/platform/zynq_fsbl/zynq_fsbl_bsp/libsrc/standalone/src/arm/common/gcc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

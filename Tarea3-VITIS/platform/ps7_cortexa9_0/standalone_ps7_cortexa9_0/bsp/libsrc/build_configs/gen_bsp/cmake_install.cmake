@@ -1,4 +1,4 @@
-# Install script for directory: /home/Yiann/Projects/DASD/Tarea3/Tarea3-VITIS/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+# Install script for directory: /home/Yiann/Projects/DASD/tarea03_dasd/Tarea3-VITIS/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,22 +39,22 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/Yiann/Projects/DASD/Tarea3/Tarea3-VITIS/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/build_configs/gen_bsp/libsrc/cmake_install.cmake")
+  include("/home/Yiann/Projects/DASD/tarea03_dasd/Tarea3-VITIS/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/build_configs/gen_bsp/libsrc/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/Yiann/Projects/DASD/Tarea3/Tarea3-VITIS/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/build_configs/gen_bsp/libsrc/standalone/src/cmake_install.cmake")
+  include("/home/Yiann/Projects/DASD/tarea03_dasd/Tarea3-VITIS/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/build_configs/gen_bsp/libsrc/standalone/src/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/Yiann/Projects/DASD/Tarea3/Tarea3-VITIS/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/build_configs/gen_bsp/libsrc/xiltimer/src/cmake_install.cmake")
+  include("/home/Yiann/Projects/DASD/tarea03_dasd/Tarea3-VITIS/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/build_configs/gen_bsp/libsrc/xiltimer/src/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/Yiann/Projects/DASD/Tarea3/Tarea3-VITIS/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/build_configs/gen_bsp/libsrc/xilffs/src/cmake_install.cmake")
+  include("/home/Yiann/Projects/DASD/tarea03_dasd/Tarea3-VITIS/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/build_configs/gen_bsp/libsrc/xilffs/src/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -65,5 +65,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/Yiann/Projects/DASD/Tarea3/Tarea3-VITIS/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/build_configs/gen_bsp/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/Yiann/Projects/DASD/tarea03_dasd/Tarea3-VITIS/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/build_configs/gen_bsp/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

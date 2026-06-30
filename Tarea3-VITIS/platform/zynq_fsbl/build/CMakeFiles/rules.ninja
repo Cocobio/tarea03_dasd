@@ -52,7 +52,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /home/Yiann/FORGE/Xilinx/Vitis/2024.2/tps/lnx64/cmake-3.24.2/bin/cmake --regenerate-during-build -S/home/Yiann/Projects/DASD/Tarea3/Tarea3-VITIS/platform/zynq_fsbl -B/home/Yiann/Projects/DASD/Tarea3/Tarea3-VITIS/platform/zynq_fsbl/build
+  command = /home/Yiann/FORGE/Xilinx/Vitis/2024.2/tps/lnx64/cmake-3.24.2/bin/cmake --regenerate-during-build -S/home/Yiann/Projects/DASD/tarea03_dasd/Tarea3-VITIS/platform/zynq_fsbl -B/home/Yiann/Projects/DASD/tarea03_dasd/Tarea3-VITIS/platform/zynq_fsbl/build
   description = Re-running CMake...
   generator = 1
 

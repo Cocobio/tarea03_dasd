@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Thu Jun 25 13:26:35 2026
+# Process ID         : 705856
+# Current directory  : /home/Yiann/Projects/DASD/Tarea3/Tarea3.runs/design_1_processing_system7_0_0_synth_1
+# Command line       : vivado -log design_1_processing_system7_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_processing_system7_0_0.tcl
+# Log file           : /home/Yiann/Projects/DASD/Tarea3/Tarea3.runs/design_1_processing_system7_0_0_synth_1/design_1_processing_system7_0_0.vds
+# Journal file       : /home/Yiann/Projects/DASD/Tarea3/Tarea3.runs/design_1_processing_system7_0_0_synth_1/vivado.jou
+# Running On         : localhost.localdomain
+# Platform           : unknown
+# Operating System   : unknown
+# Processor Detail   : AMD Ryzen 5 3600 6-Core Processor
+# CPU Frequency      : 4150.014 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 16684 MB
+# Swap memory        : 16685 MB
+# Total Virtual      : 33370 MB
+# Available Virtual  : 11629 MB
+#-----------------------------------------------------------
+source design_1_processing_system7_0_0.tcl -notrace
